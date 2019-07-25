@@ -1,0 +1,63 @@
+nav .navbar-nav li a {
+  color: white !important;
+  font-size: 11px;
+}
+
+.navbar {
+  background: transparent;
+  z-index: 997 !important;
+  padding: 1.5rem 4rem !important;
+  border: none;
+  transition: background-color 0.2s linear;
+}
+
+.navbar.solid {
+  background-color: rgba(20, 2, 0, 0.8);
+  transition: background-color 1s ease 0s;
+}
+.sticky-top {
+  top: 56px;
+}
+
+.container {
+  width: 100%;
+}
+
+.banner-wrapper {
+  background: url(../images/bg2.png);
+  background-position: bottom center;
+  background-size: cover;
+  height: 650px;
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+}
+
+.banner-text h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "poppins";
+  line-height: 80px;
+}
+
+.banner-text h1 span {
+  font-weight: 700;
+}
+.banner-text .primary-btn {
+  background-color: white;
+  color: #222;
+  border-radius: 50px;
+  line-height: 35px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 1px solid white;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "poppins";
+  letter-spacing: 1px;
+}
