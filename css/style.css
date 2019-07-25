@@ -61,3 +61,26 @@ nav .navbar-nav li a {
   font-family: "poppins";
   letter-spacing: 1px;
 }
+.section-about .container {
+  padding: 3rem 0;
+  margin-top: 3rem;
+}
+
+.black-img {
+  background-color: #000000;
+  height: 20rem;
+
+  border-radius: 50px;
+}
+
+.about-img {
+  background: url(../images/about.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  border-radius: 50px;
+}
+
+.about-content {
+  background-color: blue;
+}
