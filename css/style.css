@@ -86,7 +86,7 @@ nav .navbar-nav li a {
   padding: 0 45px;
 }
 .about-us {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-family: "Dancing script";
   font: bold;
   text-transform: uppercase;
@@ -132,6 +132,142 @@ nav .navbar-nav li a {
   height: 170px;
   width: 150px;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   margin: auto;
+}
+
+.favourite-title {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Dancing script";
+}
+
+.favourite-section {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.favorite-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.favorite-container .col-sm {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.menu-background {
+  height: 100rem;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+
+.menu-section {
+  margin-bottom: 6rem;
+  margin-top: 4rem;
+}
+
+.menu-title {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Dancing script";
+  letter-spacing: 1.5;
+  display: block;
+  margin-bottom: 2.5rem;
+}
+
+.list-wrapper {
+  height: 100%;
+  display: block;
+  margin: auto;
+  width: 80%;
+  padding-top: 4rem;
+}
+
+.divider {
+  display: flex;
+  margin: auto;
+  color: #777777;
+  border-top: 2px;
+  border-bottom: 2px;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  justify-content: center;
+}
+
+.bean-logo {
+  height: 50px;
+  width: 40px;
+  background-repeat: no-repeat;
+  margin-top: 2rem;
+  text-align: center;
+  background-size: contain;
+}
+
+.cat-title {
+  font-size: 2.7rem;
+  font-family: "Dancing script";
+  margin: 1rem 1rem 0 1rem;
+  color: azure;
+  letter-spacing: 2;
+  font-weight: 600;
+}
+
+.item-wrap {
+  margin-top: 5rem;
+}
+
+.item-img div {
+  height: 4.8rem;
+  width: 4.8rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  margin: auto;
+}
+
+.item-name span {
+  font-size: 1.5rem;
+  letter-spacing: 2;
+  color: #be9c79;
+  font-family: "Dancing script";
+  text-align: center;
+  line-height: 3;
+}
+
+.item-line span {
+  font-size: 2rem;
+  font-family: "Dancing script";
+  color: #be9c79;
+  letter-spacing: 2;
+  line-height: 2;
+}
+
+.item-price {
+  font-size: 1.5rem;
+  letter-spacing: 2;
+  color: #be9c79;
+  font-family: "Dancing script";
+  line-height: 3;
+}
+
+.divider2 {
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+.ice-row {
+  margin-bottom: 1rem;
+}
+
+.review-wrap {
+  height: 25rem;
+  background-color: #875316;
+  margin-bottom: 3rem;
 }
