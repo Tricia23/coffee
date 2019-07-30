@@ -78,9 +78,60 @@ nav .navbar-nav li a {
   background-position: center;
   background-size: cover;
   height: 100%;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 
-.about-content {
-  background-color: blue;
+.about-texts {
+  margin-top: 15px;
+  padding: 0 45px;
+}
+.about-us {
+  font-size: 3rem;
+  font-family: "Dancing script";
+  font: bold;
+  text-transform: uppercase;
+}
+.about-subtext {
+  display: block;
+  font-weight: 100;
+  font-size: 12px;
+  color: #b68834;
+  text-transform: uppercase;
+  letter-spacing: 1.5;
+  line-height: 2.5;
+}
+
+.about-texts p {
+  color: #777777;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 1.2;
+  line-height: 2;
+}
+
+.first-circle {
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  background-color: #875316;
+  justify-content: center;
+  display: flex;
+}
+
+.second-circle {
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.coffee-img {
+  height: 170px;
+  width: 150px;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
 }
